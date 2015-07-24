@@ -1,0 +1,33 @@
+.custom-logo {
+	margin-top: -20px;
+	width: 180px;
+	height: 60px;
+}
+
+.large-email {
+	font-size: 30px;
+}
+
+.navbar-inverse {
+	background-color: #111 !important;
+}
+
+.monitor-right {
+	margin-top: -20px;
+	margin-left: 20px;
+	height: 350px;
+	width: 350px;
+}
+
+.team-avatar {
+	height: 125px;
+	width: 125px;
+}
+
+.demo-listing {
+	margin-top: 10px !important;
+}
+
+.demo-listing a {
+	margin-top: 10px;
+}
