@@ -118,16 +118,18 @@ Website: http://www.seantheme.com/color-admin-v1.5/frontend/
 
 body {
     background: #fff;
+    background-image: url(../img/bg1.jpg);
+    background-repeat: repeat;
     font-family: 'Open Sans', "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #707478;
+    color: #b1b8be;
     font-size: 14px;
 }
 .ie8 body {
     font-family: Arial,sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
-    font-weight: 500;
-    color: #242a30;
+    font-weight: 800;
+    color: #eee;
     margin-top: 0;
     margin-bottom: 15px;
     line-height: 1.25;
@@ -464,7 +466,7 @@ body.page-navbar-fixed-top-sm {
 .carousel {
   height: 500px;
   margin-top: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -697,7 +699,7 @@ body.page-navbar-fixed-top-sm {
     float: left;
     width: 50px;
     height: 50px;
-    background: #242a30;
+    background: #45e25b;
     color: #fff;
     text-align: center;
     line-height: 50px;
@@ -721,6 +723,11 @@ body.page-navbar-fixed-top-sm {
 }
 .service.service-vertical .info {
     margin: 0;
+}
+.service .learn_image {
+    margin-left: -40px;
+    margin-top: -50px;
+    display: block;
 }
 
 
@@ -883,23 +890,27 @@ body.page-navbar-fixed-top-sm {
 .pricing-table.col-3 > li {
     width: 33.33333%;
 }
+.pricing-table.col-2 > li {
+    width: 50%;
+}
 .pricing-table .pricing-container {
     overflow: hidden;
     border-radius: 6px;
-    background: #f0f3f4;
-    box-shadow: 0 3px #b6c2c9;
+    border: 1px solid #00590b;
+    color: #222;
 }
 .pricing-table h3 {
     background: #242a30;
     margin: 0;
     color: #fff;
-    font-size: 14px;
+    font-size: 22px;
     padding: 15px 30px;
 }
 .pricing-table .features {
     list-style-type: none;
     margin: 0;
     padding: 0 30px;
+    background: #f0f3f4 
 }
 .pricing-table .features > li {
     padding: 10px 0;
@@ -959,7 +970,7 @@ body.page-navbar-fixed-top-sm {
 
 .footer {
     padding: 60px 0;
-    background: #262425;
+    background: #161515;
     text-align: center;
     box-shadow: inset 0 100px 80px -80px rgba(0,0,0,0.7);
     -webkit-box-shadow: inset 0 100px 80px -80px rgba(0,0,0,0.7);

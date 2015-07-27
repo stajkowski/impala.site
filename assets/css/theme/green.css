@@ -15,6 +15,16 @@ Website: http://www.seantheme.com/color-admin-v1.5/admin/
     background: #cc4946;
     border-color: #cc4946;
 }
+.btn.btn-theme-red {
+    background: #ff5b57;
+    border-color: #ff5b57;
+    color: #fff;
+}
+.btn.btn-theme-red:hover,
+.btn.btn-theme-red:focus {
+    background: #cc4946;
+    border-color: #cc4946;
+}
 .header.navbar .navbar-nav > li.active > a, 
 .header.navbar .navbar-nav > li > a:hover, 
 .header.navbar .navbar-nav > li > a:focus,

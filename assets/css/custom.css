@@ -31,3 +31,10 @@
 .demo-listing a {
 	margin-top: 10px;
 }
+
+#features {
+	background-image: url(../img/bg_light2.jpg);
+	background-repeat: repeat;
+	border-top: 1px solid #00590b;
+	border-bottom: 1px solid #00590b;
+}
