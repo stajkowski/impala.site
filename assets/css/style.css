@@ -121,7 +121,7 @@ body {
     background-image: url(../img/bg1.jpg);
     background-repeat: repeat;
     font-family: 'Open Sans', "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #b1b8be;
+    color: #c5cdd4;
     font-size: 14px;
 }
 .ie8 body {
@@ -366,7 +366,7 @@ body.page-navbar-fixed-top-sm {
 .content .content-desc {
     text-align: center;
     margin-bottom: 60px;
-    color: #242a30;
+    color: #c5cdd4;
 }
 .content.has-bg {
     padding-bottom: 60px;
@@ -699,8 +699,8 @@ body.page-navbar-fixed-top-sm {
     float: left;
     width: 50px;
     height: 50px;
-    background: #45e25b;
-    color: #fff;
+    background: #40d255;
+    color: #222;
     text-align: center;
     line-height: 50px;
     font-size: 18px;
@@ -728,6 +728,9 @@ body.page-navbar-fixed-top-sm {
     margin-left: -40px;
     margin-top: -50px;
     display: block;
+}
+.service .info p{
+    text-align: justify;
 }
 
 

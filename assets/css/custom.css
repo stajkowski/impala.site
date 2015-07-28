@@ -38,3 +38,25 @@
 	border-top: 1px solid #00590b;
 	border-bottom: 1px solid #00590b;
 }
+
+#warranty {
+	background-image: url(../img/bg_light2.jpg);
+	background-repeat: repeat;
+	border-top: 1px solid #00590b;
+	border-bottom: 1px solid #00590b;
+}
+
+.warranty-list {
+	margin-top: 25px;
+}
+
+.service .warranty {
+	height: 300px;
+	width: 375px;
+}
+
+.service .yearwarranty {
+	height: 300px;
+	width: 300px;
+	margin-left: 35px;
+}
